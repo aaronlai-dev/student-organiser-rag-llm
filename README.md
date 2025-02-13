@@ -78,7 +78,6 @@ Notes on Language Model
 ## Examples
 
 <img width="1364" alt="image" src="https://github.com/user-attachments/assets/78def8e1-0d41-4397-9c56-77d04027d532" />
-<img width="1370" alt="image" src="https://github.com/user-attachments/assets/b75b67cd-a0a4-4b86-bea3-fe4c7d0835c2" />
 <img width="1365" alt="image" src="https://github.com/user-attachments/assets/c86e723d-d1e4-4f81-8331-9afcf0c7fae4" />
 
 ## Performance Evaluation
