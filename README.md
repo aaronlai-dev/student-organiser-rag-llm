@@ -1,8 +1,8 @@
-# Student Organiser RAG LLM
+# :zap: Student Organiser RAG LLM
 
 Langchain-based RAG LLM chatbot application designed for WEHI student interns to use and answer queries.
 
-## Local Setup
+## :computer: Local Setup
 
 Install python dependencies
 ```
@@ -15,7 +15,7 @@ pip install ollama
 ollama pull hf.co/llmware/bling-phi-3-gguf
 ```
 
-## Nectar Project Trial Setup
+## :honey_pot: Nectar Project Trial Setup
 
 Login to [Nectar](https://dashboard.rc.nectar.org.au/) and create a new instance in a free project trial
 + Image: `NeCTAR Ubuntu 22.04 LTS (Jammy) amd64` (1.4 GB)
@@ -74,7 +74,7 @@ Run python script
 python3 rag.py
 ```
 
-## RAG Pipeline Overview
+## :fishing_pole_and_fish:  RAG Pipeline Overview
 
 Pipeline: [Langchain](https://github.com/langchain-ai/langchain)  
 Vector Database: [ChromaDB](https://github.com/chroma-core/chroma)  
@@ -88,17 +88,24 @@ Notes on Language Model
 + Only 3.5B parameters, ~2.4 GB storage needed
 + BLING model series (best-little-instruct-no-gpu), essential for our application with no GPU
 
-## Examples
+## :memo:  Examples
 
 <img width="1364" alt="image" src="https://github.com/user-attachments/assets/78def8e1-0d41-4397-9c56-77d04027d532" />
 <img width="1365" alt="image" src="https://github.com/user-attachments/assets/c86e723d-d1e4-4f81-8331-9afcf0c7fae4" />
 
-## Performance Evaluation
+## :microscope:  Performance Evaluation
 
 Average query time: 30-40s  
-Accuracy: Moderate accuracy, minimal hallucinations  
+Accuracy: Moderate accuracy, minimal hallucinations
 
-## Future Tasks
+Accuracy Evaluation Methodology:
++ 10 queries tested across 3 different tieres of complexity
++ Complexity Levels: Basic matching keyword, one source semantic, multiple source semantic)
++ 1 point for correct response/sources, 0.5 point for correct sources, 0 points for incorrect responses/sources
+
+The model achieved an accuracy score of 6.5/10.
+
+## :rocket:  Future Tasks
 
 1. Create interface for administrators to easily add websites/PDFs and update vector database
 2. Cache chat history for greater context window
