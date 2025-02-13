@@ -110,3 +110,5 @@ The model achieved an accuracy score of 6.5/10.
 1. Create interface for administrators to easily add websites/PDFs and update vector database
 2. Cache chat history for greater context window
 3. Weighting of higher priority sources (ie. FAQ Page)
+4. Host indefinitely on a permanent Nectar instance
+5. Request for a larger instance allocation in Nectar to use better/larger models for improved accuracy
