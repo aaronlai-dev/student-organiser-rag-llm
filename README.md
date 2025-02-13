@@ -56,6 +56,19 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama pull hf.co/llmware/bling-qwen-mini-tool
 ```
 
+Optional: Install and run a [tmux](https://github.com/tmux/tmux/wiki) session so that the application can
+continue to run after disconnecting to SSH.
+```
+sudo apt install tmux
+tmux new -s gradio_session
+python3 your_gradio_app.py
+```
+Detach to the tmux session by pressing `Ctrl + B` followed by `D`
+Reattach to the session later if needed via
+```
+tmux attach -t gradio_session
+```
+
 Run python script
 ```
 python3 rag.py
