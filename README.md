@@ -95,8 +95,8 @@ Notes on Language Model
 
 ## Performance Evaluation
 
-Average query time: 30-40s
-Accuracy: Moderate accuracy, minimal hallucinations
+Average query time: 30-40s  
+Accuracy: Moderate accuracy, minimal hallucinations  
 
 ## Future Tasks
 
