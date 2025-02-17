@@ -61,17 +61,12 @@ continue to run after disconnecting to SSH.
 ```
 sudo apt install tmux
 tmux new -s gradio_session
-python3 your_gradio_app.py
+python3 rag.py
 ```
 Detach to the tmux session by pressing `Ctrl + B` followed by `D`
 Reattach to the session later if needed via
 ```
 tmux attach -t gradio_session
-```
-
-Run python script
-```
-python3 rag.py
 ```
 
 ## :fishing_pole_and_fish:  RAG Pipeline Overview
