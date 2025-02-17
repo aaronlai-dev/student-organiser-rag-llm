@@ -15,6 +15,11 @@ pip install ollama
 ollama pull hf.co/llmware/bling-phi-3-gguf
 ```
 
+Run the python script
+```
+python3 rag.py
+```
+
 ## :honey_pot: Nectar Project Trial Setup
 
 Login to [Nectar](https://dashboard.rc.nectar.org.au/) and create a new instance in a free project trial
